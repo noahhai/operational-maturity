@@ -17,20 +17,12 @@ export default function SurveyJSReactApplication() {
                 Operational Maturity
               </a>
             </div>
-            <ul className="nav navbar-nav">
-              <li>
-                <Link to="/export">Export to PDF</Link>
-              </li>
-            </ul>
           </div>
         </nav>
 
         <Switch>
           <Route exact path="/">
             <SurveyPage />
-          </Route>
-          <Route path="/export">
-            <ExportToPDFPage />
           </Route>
         </Switch>
       </div>

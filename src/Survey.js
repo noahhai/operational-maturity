@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import * as Survey from "survey-react";
 import * as widgets from "surveyjs-widgets";
 import "survey-react/survey.css";
@@ -41,26 +41,55 @@ widgets.ckeditor(Survey);
 widgets.autocomplete(Survey, $);
 widgets.bootstrapslider(Survey);
 
-function onValueChanged(result) {
-    console.log("value changed!");
-}
+var survey = new Survey.Model(json);
 
-function onComplete(result) {
-    console.log("Complete! " + result);
-}
-
+const ref = React.createRef();
 
 export function SurveyPage() {
-    var model = new Survey.Model(json);
-    return (
-    <div className="container">
-        <h2>SurveyJS Library - a sample survey below</h2>
-        <Survey.Survey
-            model={model}
-            onComplete={onComplete}
-            onValueChanged={onValueChanged}
-          />
-    </div>
-    );
+  let [numerator, setNumerator] = useState(null);
+  let [denominator, setDenominator] = useState(null);
+  let [score, setScore] = useState(null);
+
+  function onComplete(result) {
+    console.log("Complete! " + result);
   }
-  
+
+  function onValueChanged(result) {
+    const data = result.getPlainData();
+    const num = data.filter((d) => d.value === true).length;
+    const den = data.filter((d) => d.value !== undefined).length;
+    if (den && den > 0) {
+      score = ((num / den) * 100).toFixed(0);
+    } else {
+      score = null;
+    }
+    setNumerator(num);
+    setDenominator(den);
+    setScore(score);
+    window.data = data;
+  }
+
+  //   survey.onComplete.add(function (result) {
+  //     document.querySelector("#surveyResult").textContent =
+  //       "Result JSON:\n" + JSON.stringify(result.data, null, 3);
+  //   });
+
+  return (
+    <div className="container">
+      <h2>
+        Score
+        {score !== null && score != undefined && (
+          <React.Fragment>
+            : {score}% ({numerator}/{denominator})
+          </React.Fragment>
+        )}
+      </h2>
+
+      <Survey.Survey
+        model={survey}
+        onComplete={onComplete}
+        onValueChanged={onValueChanged}
+      />
+    </div>
+  );
+}

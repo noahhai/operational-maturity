@@ -23,7 +23,7 @@ export var json = {
                 { value: false, text: "No" },
               ],
               default: "no",
-              isrequired: true,
+              isRequired: true,
               weight: 0.9,
             },
             {
@@ -35,7 +35,7 @@ export var json = {
                 { value: false, text: "No" },
               ],
               default: "no",
-              isrequired: true,
+              isRequired: true,
             },
             {
               type: "radiogroup",
@@ -46,7 +46,7 @@ export var json = {
                 { value: false, text: "No" },
               ],
               default: "no",
-              isrequired: true,
+              isRequired: true,
             },
             {
               type: "radiogroup",
@@ -57,7 +57,7 @@ export var json = {
                 { value: false, text: "No" },
               ],
               default: "no",
-              isrequired: true,
+              isRequired: true,
             },
           ],
         },
@@ -76,7 +76,7 @@ export var json = {
                 { value: false, text: "No" },
               ],
               default: "no",
-              isrequired: true,
+              isRequired: true,
             },
 
             {
@@ -88,7 +88,7 @@ export var json = {
                 { value: false, text: "No" },
               ],
               default: "no",
-              isrequired: true,
+              isRequired: true,
             },
             {
               type: "radiogroup",
@@ -98,7 +98,7 @@ export var json = {
                 { value: false, text: "No" },
               ],
               default: "no",
-              isrequired: true,
+              isRequired: true,
             },
             {
               type: "radiogroup",
@@ -109,7 +109,7 @@ export var json = {
                 { value: false, text: "No" },
               ],
               default: "no",
-              isrequired: true,
+              isRequired: true,
             },
             {
               type: "radiogroup",
@@ -119,7 +119,7 @@ export var json = {
                 { value: false, text: "No" },
               ],
               default: "no",
-              isrequired: true,
+              isRequired: true,
             },
           ],
         },
@@ -137,7 +137,7 @@ export var json = {
                 { value: false, text: "No" },
               ],
               default: "no",
-              isrequired: true,
+              isRequired: true,
             },
 
             {
@@ -149,7 +149,7 @@ export var json = {
                 { value: false, text: "No" },
               ],
               default: "no",
-              isrequired: true,
+              isRequired: true,
             },
             {
               type: "radiogroup",
@@ -160,7 +160,7 @@ export var json = {
                 { value: false, text: "No" },
               ],
               default: "no",
-              isrequired: true,
+              isRequired: true,
             },
             {
               type: "radiogroup",
@@ -171,7 +171,7 @@ export var json = {
                 { value: false, text: "No" },
               ],
               default: "no",
-              isrequired: true,
+              isRequired: true,
             },
             {
               type: "panel",
@@ -186,7 +186,7 @@ export var json = {
                     { value: false, text: "No" },
                   ],
                   default: "no",
-                  isrequired: true,
+                  isRequired: true,
                 },
               ],
             },
@@ -207,7 +207,7 @@ export var json = {
                 { value: false, text: "No" },
               ],
               default: "no",
-              isrequired: true,
+              isRequired: true,
             },
 
             {
@@ -218,7 +218,7 @@ export var json = {
                 { value: false, text: "No" },
               ],
               default: "no",
-              isrequired: true,
+              isRequired: true,
             },
             {
               type: "radiogroup",
@@ -228,7 +228,7 @@ export var json = {
                 { value: false, text: "No" },
               ],
               default: "no",
-              isrequired: true,
+              isRequired: true,
             },
             {
               type: "panel",
@@ -242,7 +242,7 @@ export var json = {
                     { value: false, text: "No" },
                   ],
                   default: "no",
-                  isrequired: true,
+                  isRequired: true,
                 },
               ],
             },
@@ -263,7 +263,7 @@ export var json = {
             { value: false, text: "No" },
           ],
           default: "no",
-          isrequired: true,
+          isRequired: true,
           weight: 0.9,
         },
         {
@@ -275,7 +275,7 @@ export var json = {
             { value: false, text: "No" },
           ],
           default: "no",
-          isrequired: true,
+          isRequired: true,
         },
         {
           type: "panel",
@@ -289,7 +289,7 @@ export var json = {
                 { value: false, text: "No" },
               ],
               default: "no",
-              isrequired: true,
+              isRequired: true,
             },
           ],
         },
@@ -301,7 +301,7 @@ export var json = {
             { value: false, text: "No" },
           ],
           default: "no",
-          isrequired: true,
+          isRequired: true,
         },
         {
           type: "radiogroup",
@@ -311,7 +311,7 @@ export var json = {
             { value: false, text: "No" },
           ],
           default: "no",
-          isrequired: true,
+          isRequired: true,
         },
         {
           type: "radiogroup",
@@ -322,7 +322,7 @@ export var json = {
             { value: false, text: "No" },
           ],
           default: "no",
-          isrequired: true,
+          isRequired: true,
         },
         {
           type: "radiogroup",
@@ -333,7 +333,7 @@ export var json = {
             { value: false, text: "No" },
           ],
           default: "no",
-          isrequired: true,
+          isRequired: true,
         },
         {
           type: "radiogroup",
@@ -344,7 +344,7 @@ export var json = {
             { value: false, text: "No" },
           ],
           default: "no",
-          isrequired: true,
+          isRequired: true,
         },
         {
           type: "radiogroup",
@@ -355,7 +355,7 @@ export var json = {
             { value: false, text: "No" },
           ],
           default: "no",
-          isrequired: true,
+          isRequired: true,
         },
       ],
     },
@@ -373,7 +373,7 @@ export var json = {
             { value: false, text: "No" },
           ],
           default: "no",
-          isrequired: true,
+          isRequired: true,
           weight: 0.9,
         },
         {
@@ -385,7 +385,7 @@ export var json = {
             { value: false, text: "No" },
           ],
           default: "no",
-          isrequired: true,
+          isRequired: true,
         },
         {
           type: "radiogroup",
@@ -395,7 +395,7 @@ export var json = {
             { value: false, text: "No" },
           ],
           default: "no",
-          isrequired: true,
+          isRequired: true,
         },
         {
           type: "panel",
@@ -410,7 +410,7 @@ export var json = {
                 { value: false, text: "No" },
               ],
               default: "no",
-              isrequired: true,
+              isRequired: true,
             },
           ],
         },
@@ -423,7 +423,7 @@ export var json = {
             { value: false, text: "No" },
           ],
           default: "no",
-          isrequired: true,
+          isRequired: true,
         },
         {
           type: "radiogroup",
@@ -434,7 +434,7 @@ export var json = {
             { value: false, text: "No" },
           ],
           default: "no",
-          isrequired: true,
+          isRequired: true,
         },
         {
           type: "radiogroup",
@@ -445,7 +445,7 @@ export var json = {
             { value: false, text: "No" },
           ],
           default: "no",
-          isrequired: true,
+          isRequired: true,
         },
         {
           type: "radiogroup",
@@ -456,7 +456,7 @@ export var json = {
             { value: false, text: "No" },
           ],
           default: "no",
-          isrequired: true,
+          isRequired: true,
         },
       ],
     },
@@ -473,7 +473,7 @@ export var json = {
             { value: false, text: "No" },
           ],
           default: "no",
-          isrequired: true,
+          isRequired: true,
         },
         {
           type: "panel",
@@ -488,7 +488,7 @@ export var json = {
                 { value: false, text: "No" },
               ],
               default: "no",
-              isrequired: true,
+              isRequired: true,
             },
           ],
         },
@@ -501,7 +501,7 @@ export var json = {
             { value: false, text: "No" },
           ],
           default: "no",
-          isrequired: true,
+          isRequired: true,
         },
         {
           type: "panel",
@@ -515,7 +515,7 @@ export var json = {
                 { value: false, text: "No" },
               ],
               default: "no",
-              isrequired: true,
+              isRequired: true,
             },
           ],
         },
@@ -527,7 +527,7 @@ export var json = {
             { value: false, text: "No" },
           ],
           default: "no",
-          isrequired: true,
+          isRequired: true,
         },
         {
           type: "panel",
@@ -575,7 +575,7 @@ export var json = {
             { value: false, text: "No" },
           ],
           default: "no",
-          isrequired: true,
+          isRequired: true,
           weight: 0.9,
         },
         {
@@ -587,7 +587,7 @@ export var json = {
             { value: false, text: "No" },
           ],
           default: "no",
-          isrequired: true,
+          isRequired: true,
         },
         {
           type: "radiogroup",
@@ -598,7 +598,7 @@ export var json = {
             { value: false, text: "No" },
           ],
           default: "no",
-          isrequired: true,
+          isRequired: true,
         },
         {
           type: "radiogroup",
@@ -609,7 +609,7 @@ export var json = {
             { value: false, text: "No" },
           ],
           default: "no",
-          isrequired: true,
+          isRequired: true,
         },
         {
           type: "radiogroup",
@@ -619,7 +619,7 @@ export var json = {
             { value: false, text: "No" },
           ],
           default: "no",
-          isrequired: true,
+          isRequired: true,
         },
       ],
     },
@@ -637,7 +637,7 @@ export var json = {
             { value: false, text: "No" },
           ],
           default: "no",
-          isrequired: true,
+          isRequired: true,
           weight: 0.9,
         },
         {
@@ -649,7 +649,7 @@ export var json = {
             { value: false, text: "No" },
           ],
           default: "no",
-          isrequired: true,
+          isRequired: true,
           weight: 0.9,
         },
         {
@@ -661,7 +661,7 @@ export var json = {
             { value: false, text: "No" },
           ],
           default: "no",
-          isrequired: true,
+          isRequired: true,
           weight: 0.9,
         },
         {
@@ -673,7 +673,7 @@ export var json = {
             { value: false, text: "No" },
           ],
           default: "no",
-          isrequired: true,
+          isRequired: true,
           weight: 0.9,
         },
         {
@@ -685,7 +685,7 @@ export var json = {
             { value: false, text: "No" },
           ],
           default: "no",
-          isrequired: true,
+          isRequired: true,
           weight: 0.9,
         },
         {
@@ -697,7 +697,7 @@ export var json = {
             { value: false, text: "No" },
           ],
           default: "no",
-          isrequired: true,
+          isRequired: true,
           weight: 0.9,
         },
         {
@@ -709,7 +709,7 @@ export var json = {
             { value: false, text: "No" },
           ],
           default: "no",
-          isrequired: true,
+          isRequired: true,
           weight: 0.9,
         },
         {
@@ -721,7 +721,7 @@ export var json = {
             { value: false, text: "No" },
           ],
           default: "no",
-          isrequired: true,
+          isRequired: true,
           weight: 0.9,
         },
       ],
@@ -736,5 +736,5 @@ export var json = {
 //     "Do we have a formal process for approval of technical employee access to cloud environments?",
 //   mininumRateDescription: "Not Satisfied",
 //   maximumRateDescription: "Completely satisfied",
-//   isrequired: true,
+//   isRequired: true,
 // },
